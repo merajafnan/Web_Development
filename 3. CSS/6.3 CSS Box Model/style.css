@@ -1,0 +1,25 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+div[id="1st Box"]{
+    background-color: cadetblue;
+    padding: 20px;
+    border: solid black;
+    border-width: 10px;
+}
+div[id="2nd Box"]{
+    background-color: gold;
+    border: solid black;
+    border-width: 20px 10px;
+    margin: 0px 0px 0px 260px;
+}
+div[id="3rd Box"]{
+    background-color: indianred;
+    border: solid black;
+    border-width: 10px;
+    margin: 0px 0px 0px 40px;
+}
+p{
+    margin: 0;
+}

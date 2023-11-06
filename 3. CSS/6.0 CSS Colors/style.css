@@ -1,0 +1,9 @@
+h1[id="h1"]{
+    background-color: lightgreen;
+}
+h2[id="h2"]{
+    background-color: burlywood;
+}
+body[id="body"]{
+    background-color: #FFDC96;
+}

@@ -1,0 +1,18 @@
+p[id="color_"]{
+    color: coral;
+}
+p[id="Font Size"]{
+    font-size: 2rem;
+}
+p[id="Font Weight"]{
+    font-weight: 900;
+}
+p[id="Font Family"]{
+    font-family: 'Caveat', cursive;
+}
+p[id="Text Align"]{
+    text-align: right;
+}
+html[id="root_html"]{
+    font-size: 30px;
+}

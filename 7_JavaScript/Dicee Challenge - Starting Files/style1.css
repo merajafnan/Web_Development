@@ -1,0 +1,32 @@
+body{
+    background-color: darkslategrey;
+}
+.container{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Lobster', sans-serif;
+    font-size: 8rem;
+    color: aquamarine;
+}
+
+
+.dice{
+    display: inline-block;
+}
+
+p{
+    font-family: 'Indie Flower', cursive;
+    color: aqua;
+    font-size: 2rem;
+}
+
+footer{
+    font-family: 'Indie Flower', cursive;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+}
+
+

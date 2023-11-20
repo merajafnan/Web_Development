@@ -1,0 +1,45 @@
+body{
+    background-color: darkolivegreen;
+    text-align: center;
+}
+button{
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 15%;
+    border: 10px solid black;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 5%;
+    color: #FEF2BF;
+}
+
+.green-button{
+    background-color: green;
+}
+
+.red-button{
+    background-color: red;
+}
+
+.yellow-button{
+    background-color: yellow;
+}
+
+.blue-button{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+

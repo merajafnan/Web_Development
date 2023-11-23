@@ -1,0 +1,16 @@
+<% if (locals.numberOfLetter) { %>
+    <h3>Your name has <%=numberOfLetter%> letters. </h3>
+<% } else { %>
+    <h2>Enter you Name Below 👇 </h3>
+        <form action="/submit" method="POST" class="form-example">
+            <div class="form-example">
+              <label for="name">Enter your FirstName: </label>
+              <input type="text" name="fname" id="fn" required />
+              <label for="text">Enter your LastName: </label>
+              <input type="text" name="lname" id="ln" required />
+              <input class="subs" type="submit" value="submit!" />
+            </div>
+        <% } %>
+     
+ 
+

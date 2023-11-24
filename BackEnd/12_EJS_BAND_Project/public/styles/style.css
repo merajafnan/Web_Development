@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+
+.container{
+    color: pink;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.footer{
+    color: pink;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,17 @@
+<% if (locals.carBrand && locals.carType) { %>
+    <h2>Welcome to the Car Generator 🚗</h2>
+    <h3>Your Car Model is: <%= carBrand %></h3>
+    <h3>Your Car Type is: <%= carType %> </h3>
+
+    <form action="/submit" method="post">
+        <input type="submit" value="Generte Name">
+    </form>
+<% } else {%>
+
+<h2>Welcome to the Car Generator 🚗</h2>
+
+<form action="/submit" method="post">
+    <input type="submit" value="Generte Name">
+</form>
+
+<% } %>

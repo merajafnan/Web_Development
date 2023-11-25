@@ -1,0 +1,26 @@
+<div>
+    <form action="/recipe" method="post" class="buttons">
+        <button type="submit" value="chicken" name="choice">🍗</button>
+        <button type="submit" value="fish" name="choice">🐟</button>
+        <button type="submit" value="beef" name="choice">🥩</button>
+    </form>
+</div>
+
+<div class="menu">
+    <% if (locals.recipeName) { %>
+        <p>Ingredients</p>
+        <p class="recipeTitle">
+            <%= recipeName.ingredients.protein.name%> , <%= recipeName.ingredients.protein.preparation %>
+        </p>
+            <li><%=  recipeName.ingredients.salsa.name%> , <%= recipeName.ingredients.salsa.spiciness %></li>
+            <li><%=  recipeName.ingredients.toppings[0].quantity%>,<%=  recipeName.ingredients.toppings[0].name%></li>
+            <li><%=  recipeName.ingredients.toppings[1].quantity%>,<%=  recipeName.ingredients.toppings[1].name%></li>
+            <li><%=  recipeName.ingredients.toppings[2].quantity%>,<%=  recipeName.ingredients.toppings[2].name%></li>
+     
+    <% } else {%>
+        <h2 class="foodChoice">
+            Enter You Favorite Food
+        </h2>
+    <% } %>
+
+</div>

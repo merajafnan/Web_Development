@@ -93,17 +93,12 @@ app.post("/login", async(req,res) => {
         else {
             res.status(401).send('Invalid credentials');
         }
-
-        
     }
     catch (err) {
         console.log(err);
     }
 
 })
-
-
-
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
